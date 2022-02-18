@@ -1,5 +1,5 @@
 1- Install docker
-a) (1.png "question 1")
+a) (/1.png "question 1")
 
 
 2- List all running containers
