@@ -13,5 +13,3 @@ container_name="my_httpd_container_1"
 container_port=9999
 host_port=49170
 docker run -d --name $container_name -p $host_port:$container_port --mount source=$volume_name,target=/code $docker_image_name 
-
-#to create volume and mount it to /code folder inside the image
