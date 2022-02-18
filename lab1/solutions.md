@@ -107,6 +107,7 @@ a) docker exec -it CONTAIER-ID /bin/bash
 12- Create a file inside ubuntu container
 
 a) 
+
     - docker run -it ubuntu
 
     - touch temp-file
@@ -126,7 +127,9 @@ a) exit
     * Did you find the file?
 
 a) Yes
+   
     - docker start -i CONTAINER-ID
+   
     - ls
 
 ![docker start -i 66dc755b448c](14.png "question 14")
