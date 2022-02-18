@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # to build the image
-docker_image_name="test-node-image-1"
+docker_image_name="node-image-test-1"
 docker build . -t $docker_image_name
 
 #to run the image on a container

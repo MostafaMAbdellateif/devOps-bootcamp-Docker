@@ -1,3 +1,3 @@
-# To run the answer for the question
+# To run the answer for the Q1
 
-. ./build-run-images.sh
+. ./build-run-node-image.sh
